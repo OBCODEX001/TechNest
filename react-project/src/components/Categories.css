@@ -1,0 +1,36 @@
+
+.firstInnerSection{
+    width: 25%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+}
+.categories{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 90%;
+    color: white;
+}
+.shopCategories{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+}
+.shopCategories div{
+    padding-left: 30px;
+}
+.shopCategories a {
+    text-decoration: none;
+    color: white;
+}
+.activeTab{
+    background-color: green;
+    color: white;
+}

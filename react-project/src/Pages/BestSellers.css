@@ -1,0 +1,71 @@
+.bestSellersBanner {
+    width: 100%;
+    background: linear-gradient(135deg, #2F9025 0%, #1d5516 100%);
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.bannerContent h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.bannerContent p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0 0 0;
+    opacity: 0.95;
+}
+
+.bestSellersContainer {
+    width: 90%;
+    margin: 3rem auto;
+    padding: 2rem 0;
+}
+
+.bestSellersHeader {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.bestSellersHeader h2 {
+    font-size: 2.2rem;
+    margin: 0;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+.bestSellersHeader p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0.5rem 0 0 0;
+}
+
+.bestSellersGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .bestSellersBanner {
+        padding: 2rem 0;
+    }
+    
+    .bannerContent h1 {
+        font-size: 2rem;
+    }
+    
+    .bestSellersHeader h2 {
+        font-size: 1.5rem;
+    }
+    
+    .bestSellersGrid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 1.5rem;
+    }
+}

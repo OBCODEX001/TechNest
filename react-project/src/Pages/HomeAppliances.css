@@ -1,0 +1,30 @@
+.firstSection {
+    width: 100%;
+    height: auto;
+}
+
+.secondSection {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.secondInnerSection {
+    width: 75%;
+    height: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.HomeAppliancesPage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    height: auto;
+}

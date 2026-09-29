@@ -1,0 +1,107 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    /* margin-top: 40rem; */
+}
+.innerFooterContainer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    gap: 1rem;
+    padding: 10px 0px;
+}
+.firstFooterSection{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}.firstFooterSection h1{
+    margin:0 ;
+}
+.firstFooterSection p{
+    font-size: 18px;
+    margin: 0;
+}
+.inputContainer{
+    width: 50%;
+    display: flex;
+}
+.inputContainer input{
+width: 75%;
+padding: 20px 20px;
+font-size: 15px;
+outline: none;
+}
+.inputContainer button{
+    width: 25%;
+    background-color: #2F9025;
+  border: none;
+    color: white;
+    cursor: pointer;
+}
+.inputContainer button:hover{
+    background-color: #297f20;
+}
+.secondFooterSection{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.firstInnerSecondSection h1{
+    font-size: 20px;
+}
+.firstInnerSecondSection p{
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.firstInnerSecondSection a{
+    text-decoration: none;
+}
+
+.secondInnerSecondSection h1{
+    font-size: 20px;
+}
+.secondInnerSecondSection p{
+    font-size: 15px;
+    cursor: pointer;
+}
+.thirdInnerSecondSection h1{
+     font-size: 20px;
+}
+.thirdInnerSecondSection p{
+    font-size: 15px;
+
+}
+.fourthInnerSecondSection{
+    display: flex;
+    gap: 15px;
+}
+.facebook{
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+.facebook:hover{
+    opacity: 0.75;
+}
+.twitter{
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+.twitter:hover{
+    opacity: 0.75;
+}
+.instagram{
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+.instagram:hover{
+    opacity: 0.75;
+}
