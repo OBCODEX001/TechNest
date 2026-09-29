@@ -29,7 +29,7 @@ export default function HomePage() {
                 <h2>for Your Lifestyle</h2>
                 <p>Explore the latest gadgets & accessories.</p>
                 </div>
-                <Link to="/Shop"><button>Shop Now</button></Link>
+                <button><Link to="/Shop">Shop Now</Link></button>
             </div>
         </div>
 
